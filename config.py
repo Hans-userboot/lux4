@@ -13,12 +13,12 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 API_ID = int(os.environ.get("API_ID", "26761588"))
 API_HASH = os.environ.get("API_HASH", "571e5055f862124a27d08beb6e5f6e2a")
 
-CHANNEL_DB = int(os.environ.get("CHANNEL_DB", "-1001846599716"))
-DATABASE_URL = os.environ.get("DATABASE_URL", "postgres://lojjuitw:fnG4jKd651Ds9g6flt9t7P_U91a0lHaY@arjuna.db.elephantsql.com")
+CHANNEL_DB = int(os.environ.get("CHANNEL_DB", "-1001458969638"))
+DATABASE_URL = os.environ.get("DATABASE_URL", "postgres://qyuykmqs:ULQlTy66n7txiTnFfkswctRS_I20G1It@arjuna.db.elephantsql.com/qyuykmqs")
 
 RESTRICT = strtobool(os.environ.get("RESTRICT", "True"))
 
-FORCE_SUB_1 = int(os.environ.get("FORCE_SUB_1", "-1001620868853"))
+FORCE_SUB_1 = int(os.environ.get("FORCE_SUB_1", "-1001857449730"))
 FORCE_SUB_2 = int(os.environ.get("FORCE_SUB_2", "0"))
 FORCE_SUB_3 = int(os.environ.get("FORCE_SUB_3", "0"))
 FORCE_SUB_4 = int(os.environ.get("FORCE_SUB_4", "0"))
